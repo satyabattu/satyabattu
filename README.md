@@ -2,9 +2,9 @@
 
 # Satya Pushyami Battu
 
-**ML / AI Engineer · Computer Vision · On-Device Intelligence**
+**CS Graduate (First Class Honours) · Aspiring ML/AI Engineer .**
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=Machine+Learning+%26+AI+Engineer;Computer+Vision+%7C+On-Device+ML;Building+AI+that+works+in+the+real+world;Privacy-First+%7C+Efficient+%7C+Interpretable)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=Computer+Vision+%7C+Machine+Learning;YOLOv8+%7C+TensorFlow+%7C+scikit-learn;BEng+Computer+Science+%E2%80%94+First+Class+Honours;Looking+for+ML%2FAI+internships+%F0%9F%9A%80)](https://git.io/typing-svg)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Satya%20Pushyami%20Battu-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/satya-battu-698756197)
 [![Email](https://img.shields.io/badge/Email-satyabattu2331%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:satyabattu2331@gmail.com)
@@ -14,84 +14,68 @@
 
 ---
 
-## 👩‍💻 About Me
+## 👋 About Me
 
-🎓 **ML / AI Engineer** focused on building intelligent systems that are accurate, efficient, and trustworthy  
-🔍 Specializing in **Computer Vision** and **On-Device Machine Learning**  
-🔒 Advocate for **privacy-preserving AI** — smart systems that don't compromise user data  
-🧪 Applying ML to high-stakes, real-world domains where reliability matters  
-🌱 Exploring the intersection of **edge intelligence** and **applied deep learning**
+I'm a Computer Science graduate (First Class Honours, Anglia Ruskin University) who's been diving deep into ML and computer vision over the last couple of years. My final year project was a full forensic evidence detection system — custom dataset, YOLOv8, Streamlit dashboard, the whole thing — and I've been hooked on applied ML ever since.
+
+I like building things that actually work in the real world, not just on clean datasets. Looking for an ML/AI internship or junior role where I can keep learning and contribute to something real.
 
 ---
 
-## 🛠️ My Toolkit
+## 🛠️ Tech Stack
 
-### Languages
+### Core
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://java.com)
+[![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)](https://en.wikipedia.org/wiki/C_(programming_language))
+[![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com)
 
-### ML & AI
-[![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org)
+### ML & Computer Vision
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)](https://tensorflow.org)
 [![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)](https://scikit-learn.org)
 [![OpenCV](https://img.shields.io/badge/OpenCV-5C3317?style=for-the-badge&logo=opencv&logoColor=white)](https://opencv.org)
+[![YOLOv8](https://img.shields.io/badge/YOLOv8-00FFFF?style=for-the-badge&logo=yolo&logoColor=black)](https://ultralytics.com)
 
-### Data & Compute
+### Data & Tools
 [![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org)
 [![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org)
-[![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white)](https://matplotlib.org)
-[![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org)
-
-### Tools
+[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io)
 [![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com)
-[![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)](https://code.visualstudio.com)
-[![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://linux.org)
+[![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)](https://aws.amazon.com)
+[![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white)](https://mathworks.com)
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Projects
 
-### 🔍 [EvidenceLens](https://github.com/satyabattu/EvidenceLens) — Forensic Evidence Detection
-> Computer vision system for automated forensic evidence detection using deep learning
+### 🔍 [EvidenceLens](https://github.com/satyabattu/EvidenceLens) — AI Forensic Evidence Detection
+> My final year project · Python · YOLOv8 · OpenCV · scikit-learn · Streamlit
+
+Built an end-to-end computer vision pipeline to detect forensic evidence from crime scene images across **11 evidence categories**. Manually labelled a custom dataset of **1,050+ images**, trained YOLOv8-nano achieving **56.6% mAP**, and built a Random Forest classifier on top that hit **98% crime-type classification accuracy**. Deployed as an interactive Streamlit dashboard, optimised to run on CPU-only ARM hardware — no GPU needed.
 
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
-[![OpenCV](https://img.shields.io/badge/OpenCV-5C3317?style=flat-square&logo=opencv&logoColor=white)](https://opencv.org)
-[![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)](https://pytorch.org)
-
-Applies deep learning to assist forensic analysts in identifying visual evidence — faster, more consistently, and at scale. Designed for high-stakes, real-world investigative workflows.
+[![YOLOv8](https://img.shields.io/badge/YOLOv8-00FFFF?style=flat-square&logo=yolo&logoColor=black)](https://ultralytics.com)
+[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://streamlit.io)
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)](https://scikit-learn.org)
 
 ---
 
-### 📱 [On-Device Activity Recognition](https://github.com/satyabattu/on-device-activity-recognition) — Privacy-Preserving Edge ML
-> Classical ML pipeline for human activity recognition running fully on-device from accelerometer signals
+### 📱 [On-Device Activity Recognition](https://github.com/satyabattu/on-device-activity-recognition) — Edge ML
+> Python · scikit-learn · Signal Processing
+
+Built a human activity recognition system from raw accelerometer data using classical ML — no deep learning, no cloud. The focus was on making something efficient and interpretable enough to run on actual device hardware.
 
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
 [![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)](https://scikit-learn.org)
-[![Privacy](https://img.shields.io/badge/On--Device-No_Cloud-2d6a4f?style=flat-square)]()
-
-Zero data transmission. Instant local inference. Interpretable results. Built for resource-constrained hardware.
 
 ---
 
-## 🧠 Engineering Philosophy
+## 📜 Certifications
 
-```python
-satya = {
-    "focus": ["Computer Vision", "On-Device ML", "Privacy-First AI"],
-    "principles": [
-        "Build AI that is explainable, not just accurate",
-        "Privacy is a feature, not an afterthought",
-        "Efficiency enables access — optimize relentlessly",
-        "Real-world constraints make better engineers",
-    ],
-    "currently_exploring": [
-        "Edge AI deployment & model quantization",
-        "Multimodal learning systems",
-        "ML for forensic & safety-critical applications",
-    ],
-    "fun_fact": "I believe the best ML models are the ones that earn trust 🔬"
-}
-```
+- 🏅 Computer Vision Onramp — MathWorks (Oct 2025)
+- 🏅 Image Processing Onramp — MathWorks (Oct 2025)
+- ☁️ AWS Academy: Cloud Foundations — Amazon (Mar 2025)
+- 🤖 Supervised ML: Regression & Classification — Coursera (2024)
 
 ---
 
@@ -108,9 +92,7 @@ satya = {
 
 <div align="center">
 
-*"The best AI doesn't just perform well on benchmarks — it performs well in the world."*
-
-**Open to opportunities · Available for collaboration · Ready to contribute**
+*"Always learning, always building."*
 
 ![Visitor Count](https://komarev.com/ghpvc/?username=satyabattu&color=a78bfa&style=flat-square&label=Profile+Views)
 
